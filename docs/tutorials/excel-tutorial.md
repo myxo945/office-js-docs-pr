@@ -405,7 +405,7 @@ In this step of the tutorial, you'll create a chart using data from the table th
     chart.title.text = "Expenses";
     chart.legend.position = "right"
     chart.legend.format.fill.setSolidColor("white");
-    chart.dataLabels.format.font.size = 15;
+    chart.dataLabels.format.font.size = 10;
     chart.dataLabels.format.font.color = "black";
     chart.series.getItemAt(0).name = 'Value in &euro;';
     ```
